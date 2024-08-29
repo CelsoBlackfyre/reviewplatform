@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react";
 import ReactLoading from "react-loading";
 import axios from "axios";
 import SeriesList from "@/app/tv/tvlist/page";
-import SearchBar from "@/app/components/searchbar";
-import Seriescard from "../tvcard";
+import SearchBar from "@/app/components/searchbar/SearchBar";
+import Seriescard from "../tvcard/page";
 import { Series } from "@/app/types/series";
 
 function SeriesRecommendations() {

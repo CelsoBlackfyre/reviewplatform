@@ -2,11 +2,11 @@
 
 import React, { use, useEffect, useState } from "react";
 import axios from "axios";
-import Moviecard from "../moviecard";
+import Moviecard from "../moviecard/page";
 import { Movies } from "@/app/types/movies";
 import ReactLoading from "react-loading";
-import ButtonPage from "@/app/components/buttonpage";
-import SearchBar from "@/app/components/searchbar";
+import ButtonPage from "@/app/components/buttonpage/ButtonPage";
+import SearchBar from "@/app/components/searchbar/SearchBar";
 
 function MovieList() {
 	const [movies, setMovies] = useState<Movies[]>([]);

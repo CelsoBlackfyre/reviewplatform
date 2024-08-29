@@ -2,11 +2,11 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import dynamic from "next/dynamic";
-import Seriescard from "../tvcard";
+import Seriescard from "../tvcard/page";
 import ReactLoading from "react-loading";
 import { Series } from "@/app/types/series";
-import SearchBar from "@/app/components/searchbar";
-import ButtonPage from "@/app/components/buttonpage";
+import SearchBar from "@/app/components/searchbar/SearchBar";
+import ButtonPage from "@/app/components/buttonpage/ButtonPage";
 
 const SeriesList = () => {
 	const [series, setSeries] = useState<Series[]>([]);
