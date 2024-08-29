@@ -7,15 +7,7 @@ export interface Movies {
     popularity: string;
     tagline: string;
     runtime: number;
+    vote_average: number;
     trailerUrl: string;
 }
 
-export interface Series {
-    id: number;
-    original_name: string;
-    overview: string;
-    poster_path: string;
-    first_air_date: string;
-    popularity: string;
-    trailerUrl: string;
-}
